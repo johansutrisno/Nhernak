@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Nhernak</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_article">Article</string>
+    <string name="menu_profile">Profile</string>
+    <string name="contact_consultant">Contact Consultant</string>
+    <string name="farm_animal">Farm Animal</string>
+    <string name="market_price">Market Price</string>
+    <string name="garut_sheep">Garut Sheep</string>
+    <string name="email_profile">Email : </string>
+    <string name="no_telepon_profile">No. Telp :</string>
+    <string name="alamat_profile">Alamat :</string>
+    <string name="edit">Edit</string>
+    <string name="arrow_right"><![CDATA[>]]></string>
+    <string name="log_out">Log Out</string>
+</resources>

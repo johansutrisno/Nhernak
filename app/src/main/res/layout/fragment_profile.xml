@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@drawable/rounded_rect_shape">
+        <ImageView
+            android:id="@+id/image_profile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            tools:src="@drawable/ic_profilemanblueyoung"/>
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/name_profile"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Robert Downey Jr"
+            android:textSize="21sp" />
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/job_profile"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="36dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Peternak Domba Garut"
+            android:textSize="12sp" />
+        <LinearLayout
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/email_profile" />
+                <TextView
+                    android:textColor="@color/white"
+                    android:id="@+id/email_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text=" robertdowney@jr.com"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no_telepon_profile"/>
+                <TextView
+                    android:textColor="@color/white"
+                    android:id="@+id/contact_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text=" 089675688630"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/alamat_profile"/>
+                <TextView
+                    android:textColor="@color/white"
+                    android:id="@+id/alamat_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text=" Jl.Raya Cibaduyut, Gg TVRI 1"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/editProfile"
+            android:layout_marginTop="21dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit"/>
+    </LinearLayout>
+
+</LinearLayout>
